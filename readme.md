@@ -35,34 +35,34 @@ AI Code Reviewer is a full-stack application that leverages AI to review code an
 ## Getting Started
 
 1. **Clone the repository:**
-    ```
-    git clone https://github.com/yourusername/ai-code-reviewer.git
-    cd ai-code-reviewer
-    ```
+  ```bash
+  git clone https://github.com/yourusername/ai-code-reviewer.git
+  cd ai-code-reviewer
+  ```
 
 2. **Install dependencies:**
-    - Frontend:
-      ```
-      cd frontend
-      npm install
-      ```
-    - Backend:
-      ```
-      cd ../backend
-      npm install
-      ```
+  - Frontend:
+    ```bash
+    cd frontend
+    npm install
+    ```
+  - Backend:
+    ```bash
+    cd ../backend
+    npm install
+    ```
 
 3. **Configure environment variables** as needed (see `.env.example` in each folder).
 
 4. **Run the application:**
-    - Start backend:
-      ```
-      npm start
-      ```
-    - Start frontend (in a new terminal):
-      ```
-      npm start
-      ```
+  - Start backend:
+    ```bash
+    npm start
+    ```
+  - Start frontend (in a new terminal):
+    ```bash
+    npm start
+    ```
 
 ## Usage
 
@@ -73,10 +73,8 @@ AI Code Reviewer is a full-stack application that leverages AI to review code an
 
 Showcase the application's interface and features by adding screenshots below.
 
-```
 ![Home Page](screenshots/home.png)
 ![Code Review Result](screenshots/review-result.png)
-```
 
 Place your screenshot images in a `screenshots/` folder at the root of the project and update the paths above as needed.
 
@@ -88,4 +86,4 @@ Contributions are welcome! Please open issues or submit pull requests for improv
 
 This project is licensed under the MIT License.
 
-    
+
