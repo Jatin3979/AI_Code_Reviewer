@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/ai': 'http://localhost:3000',
+      '/ai': 'https://ai-code-reviewer-1-y6gy.onrender.com',
     }
   }
 })
