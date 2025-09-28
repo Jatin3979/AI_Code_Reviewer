@@ -27,12 +27,13 @@ function App() {
       //   }
       // );
       // const data = await response.json();
-      const data = await axios.post("http://localhost:3000/ai/get-review", {
+      const data = await axios.post("/ai/get-review", {
         code,
       });
 
       setReview(data.data);
     } catch (err) {
+      console.error(err);
       setReview("❌ Error: Could not fetch review.Try Again Later");
     }
   }
