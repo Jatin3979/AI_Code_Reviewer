@@ -30,13 +30,13 @@
 ## Project Structure
 
 
-
+```
 .
 ├── frontend/     # React app
 ├── backend/      # Node.js + Express API
 ├── screenshots/  # Images of the app
 └── README.md
-
+```
 
 
 ---
