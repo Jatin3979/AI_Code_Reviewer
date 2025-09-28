@@ -27,7 +27,7 @@ function App() {
       //   }
       // );
       // const data = await response.json();
-      const data = await axios.post("/ai/get-review", {
+      const data = await axios.post("https://ai-code-reviewer-1-y6gy.onrender.com/ai/get-review", {
         code,
       });
 
