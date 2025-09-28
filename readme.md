@@ -32,7 +32,7 @@
 
 ## Project Structure
 
-```
+
 
 .
 ├── frontend/     # React app
