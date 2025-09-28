@@ -1,14 +1,15 @@
 ```markdown
 # AI Code Reviewer
 
-[![Frontend Deployment](https://img.shields.io/badge/Netlify-Deployed-brightgreen)](https://aireviewer.netlify.app)  
-[![Backend Deployment](https://img.shields.io/badge/Render-Deployed-blue)](https://ai-code-reviewer-1-y6gy.onrender.com)  
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)  
+[![Frontend Deployment](https://img.shields.io/badge/Netlify-Deployed-brightgreen)](https://aireviewer.netlify.app) 
+[![Backend Deployment](https://img.shields.io/badge/Render-Deployed-blue)](https://ai-code-reviewer-1-y6gy.onrender.com) 
 
 **AI Code Reviewer** is a full-stack web app that leverages AI to analyze and review code, giving instant feedback on quality, readability, performance, and best practices.
 
 🎯 **Live Demo:** [https://aireviewer.netlify.app](https://aireviewer.netlify.app)  
 ⚡ **Backend API:** [https://ai-code-reviewer-1-y6gy.onrender.com](https://ai-code-reviewer-1-y6gy.onrender.com)
+
+
 
 ---
 
