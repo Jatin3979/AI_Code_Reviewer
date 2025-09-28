@@ -39,7 +39,7 @@
 ├── screenshots/  # Images of the app
 └── README.md
 
-````
+```
 
 ---
 
@@ -49,7 +49,7 @@
 
 ```bash
 git clone https://github.com/Jatin3979/AI_Code_Reviewer.git
-cd ai-code-reviewer
+cd AI_Code_Reviewer
 ````
 
 2. Install dependencies:
@@ -82,10 +82,10 @@ npm start
 
 ## Screenshots
 
-![Home Page](screenshots/Home.png)
+![Home Page](screenshots/Home.PNG)
 *Clean, intuitive UI with a scrollable code editor and review panel.*
 
-![Code Review Result](screenshots/review-result.png)
+![Code Review Result](screenshots/review-result.PNG)
 *Detailed AI feedback highlighting issues, improvements, and best practices.*
 
 ---
@@ -107,10 +107,10 @@ MIT License
 ---
 
 **Made with ❤️ by Jatin Kumar**
-GitHub: [https://github.com/Jatin3979](https://github.com/jatinkumar)
+GitHub: [https://github.com/Jatin3979](https://github.com/Jatin3979)
 LinkedIn: [https://www.linkedin.com/in/jatin-kumar-1560152a7/](https://www.linkedin.com/in/jatin-kumar-1560152a7/)
 
 ```
 
----
+
 
