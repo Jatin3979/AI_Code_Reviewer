@@ -8,9 +8,14 @@ import ReviewButton from "./components/ReviewButton";
 import "./App.css";
 
 function App() {
-  const [code, setCode] = useState(`function sum() {
-  return 1 + 1
-}`);
+  const [code, setCode] = useState(`// 👋 Welcome to AI Code Reviewer!
+    // This is a sample code snippet.
+    // Paste your own code here to get it reviewed.
+
+    function sum() {
+      return a + b;
+    }`);
+
   const [review, setReview] = useState(
     "Submit code for review by clicking the button."
   );
@@ -27,9 +32,12 @@ function App() {
       //   }
       // );
       // const data = await response.json();
-      const data = await axios.post("https://ai-code-reviewer-1-y6gy.onrender.com/ai/get-review", {
-        code,
-      });
+      const data = await axios.post(
+        "https://ai-code-reviewer-1-y6gy.onrender.com/ai/get-review",
+        {
+          code,
+        }
+      );
 
       setReview(data.data);
     } catch (err) {
