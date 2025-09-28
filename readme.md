@@ -1,89 +1,116 @@
+```markdown
 # AI Code Reviewer
 
-AI Code Reviewer is a full-stack application that leverages AI to review code and provide feedback. The project is organized into two main folders: `frontend` and `backend`.
+[![Frontend Deployment](https://img.shields.io/badge/Netlify-Deployed-brightgreen)](https://aireviewer.netlify.app)  
+[![Backend Deployment](https://img.shields.io/badge/Render-Deployed-blue)](https://ai-code-reviewer-1-y6gy.onrender.com)  
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)  
 
-## Table of Contents
+**AI Code Reviewer** is a full-stack web app that leverages AI to analyze and review code, giving instant feedback on quality, readability, performance, and best practices.
 
-- [Project Structure](#project-structure)
-- [Tools & Technologies](#tools--technologies)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Contributing](#contributing)
-- [License](#license)
+🎯 **Live Demo:** [https://aireviewer.netlify.app](https://aireviewer.netlify.app)  
+⚡ **Backend API:** [https://ai-code-reviewer-1-y6gy.onrender.com](https://ai-code-reviewer-1-y6gy.onrender.com)
+
+---
+
+## Features
+
+- AI-powered code review with constructive feedback  
+- Sample code in editor guides first-time users  
+- Clean, responsive UI with scrollable editor and review panel  
+- Footer links for contacting the developer  
+
+---
+
+## Tech Stack
+
+- **Frontend:** React, JavaScript, CSS, Axios, PrismJS  
+- **Backend:** Node.js, Express, Google Gemini API (or OpenAI)  
+- **Hosting:** Netlify (frontend), Render (backend)
+
+---
 
 ## Project Structure
 
 ```
+
 .
-├── frontend/   # React-based user interface
-├── backend/    # Node.js/Express API server
-├── screenshots/
+├── frontend/     # React app
+├── backend/      # Node.js + Express API
+├── screenshots/  # Images of the app
 └── README.md
+
+````
+
+---
+
+## Quick Start
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/Jatin3979/AI_Code_Reviewer.git
+cd ai-code-reviewer
+````
+
+2. Install dependencies:
+
+```bash
+cd frontend
+npm install
+
+cd ../backend
+npm install
 ```
 
-- **frontend/**: Contains the React application for user interaction.
-- **backend/**: Houses the API built with Node.js and Express, handling code review logic.
-- **screenshots/**: Store images to showcase the app.
+3. Configure `.env` files with API keys (e.g., `GOOGLE_API_KEY`) and backend port.
 
-## Tools & Technologies
+4. Run locally:
 
-- **Frontend**: React, JavaScript, CSS, Axios
-- **Backend**: Node.js, Express, OpenAI API (or similar AI service)
-- **Other**: Git for version control, npm/yarn for package management
+```bash
+# Backend
+cd backend
+npm start
 
-## Getting Started
+# Frontend (new terminal)
+cd frontend
+npm start
+```
 
-1. **Clone the repository:**
-  ```bash
-  git clone https://github.com/yourusername/ai-code-reviewer.git
-  cd ai-code-reviewer
-  ```
+5. Open `http://localhost:3000` and test the app.
 
-2. **Install dependencies:**
-  - Frontend:
-    ```bash
-    cd frontend
-    npm install
-    ```
-  - Backend:
-    ```bash
-    cd ../backend
-    npm install
-    ```
-
-3. **Configure environment variables** as needed (see `.env.example` in each folder).
-
-4. **Run the application:**
-  - Start backend:
-    ```bash
-    npm start
-    ```
-  - Start frontend (in a new terminal):
-    ```bash
-    npm start
-    ```
-
-## Usage
-
-- Access the frontend at `http://localhost:3000`
-- Submit your code for AI-powered review and receive instant feedback.
+---
 
 ## Screenshots
 
-Showcase the application's interface and features by adding screenshots below.
+![Home Page](screenshots/Home.png)
+*Clean, intuitive UI with a scrollable code editor and review panel.*
 
-![Home Page](screenshots/home.png)
 ![Code Review Result](screenshots/review-result.png)
+*Detailed AI feedback highlighting issues, improvements, and best practices.*
 
-Place your screenshot images in a `screenshots/` folder at the root of the project and update the paths above as needed.
+---
 
 ## Contributing
 
-Contributions are welcome! Please open issues or submit pull requests for improvements.
+Contributions welcome!
+
+* Open issues for bugs or feature requests
+* Submit pull requests with improvements
+* Follow coding best practices and document your changes
+
+---
 
 ## License
 
-This project is licensed under the MIT License.
+MIT License
 
+---
+
+**Made with ❤️ by Jatin Kumar**
+GitHub: [https://github.com/Jatin3979](https://github.com/jatinkumar)
+LinkedIn: [https://www.linkedin.com/in/jatin-kumar-1560152a7/](https://www.linkedin.com/in/jatin-kumar-1560152a7/)
+
+```
+
+---
 
